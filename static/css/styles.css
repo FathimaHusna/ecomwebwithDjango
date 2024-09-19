@@ -4274,6 +4274,7 @@ textarea.form-control-lg {
 .card-img-top,
 .card-img-bottom {
   width: 100%;
+  
 }
 
 .card-img,
@@ -10824,3 +10825,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+.product-image {
+  width: 100%;              /* Make the image responsive to the card width */
+  height: 300px;            /* Fixed height for uniformity */
+  object-fit: cover;        /* Ensures the image fills the area while maintaining aspect ratio */
+  display: block;           /* Ensures the image behaves like a block element */
+  object-position: center; /* Ensures the image is centered if cropping happens */
+}
+
+
+
+
