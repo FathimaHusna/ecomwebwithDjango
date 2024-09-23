@@ -8,7 +8,6 @@ from .forms import SignUpForm
 from django import forms
 
 
-# Create your views here.
 
 def category(request, foo):
     foo = foo.replace('-', ' ')
